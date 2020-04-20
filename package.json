@@ -1,0 +1,23 @@
+{
+  "name": "changesets-publish-slack-action",
+  "private": true,
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build ./index.ts --no-source-maps --target=node --bundle-node-modules"
+  },
+  "dependencies": {
+    "parcel": "^1.12.3",
+    "typescript": "^3.5.3",
+    "@actions/core": "^1.0.0",
+    "@actions/exec": "^1.0.0",
+    "@actions/github": "^1.0.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-typescript": "^7.6.0",
+    "@types/node": "^12.7.1",
+    "@types/node-fetch": "^2.5.6",
+    "node-fetch": "^2.6.0"
+  }
+}
